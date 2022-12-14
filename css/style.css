@@ -1,0 +1,17 @@
+/* header */
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.nav-block{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-block a{
+    padding: .7rem 1.5rem;
+    font-style: none;
+}
