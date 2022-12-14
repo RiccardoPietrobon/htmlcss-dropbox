@@ -1,4 +1,5 @@
 /* header */
+/* nav */
 header>nav{
     display: flex;
     justify-content: space-between;
@@ -14,4 +15,37 @@ header>nav{
 .nav-block a{
     padding: .7rem 1.5rem;
     font-style: none;
+}
+/* jumbotron */
+.jumbotron{
+    background-color: var(--jumbo);
+}
+.jumbotron>.container-a{
+    padding-top: 2rem;
+}
+.container-c{
+    display: flex;
+}
+/* lato/sinistro */
+.lato-stretto{
+    width: 30%;
+}
+.jumbo-stretto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+#arrow-down{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+/* lato destro */
+.lato-largo{
+    width: 70%;
+}
+.jumbo-largo>img{
+    position: relative;
+    top: 2rem;
 }

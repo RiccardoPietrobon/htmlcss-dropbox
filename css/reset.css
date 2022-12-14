@@ -25,13 +25,26 @@ video {
 /* colors */
 :root{
 	--blue: #297afe;
+	--jumbo: #a5d6ff;
 }
 /* button */
+button{
+	text-decoration: none;
+	border: none;
+	background: none;
+}
 .btn{
 	text-decoration: none;
+	padding: 1rem;
 }
 
 .btn-blue{
 	color: white;
 	background-color: var(--blue);
+}
+/* titoli */
+h1{
+	font-size: 4.5rem;
+	font-weight: bolder;
+	padding: 2rem 0;
 }
