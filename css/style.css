@@ -49,3 +49,12 @@ header>nav{
     position: relative;
     top: 2rem;
 }
+/* main */
+/* Sezione piano business */
+.fatturazione,
+.tipo-fatturazione{
+    display: flex;
+}
+.tipo-fatturazione{
+    margin: 0 2rem;
+}

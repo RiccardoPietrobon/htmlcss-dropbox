@@ -42,9 +42,24 @@ button{
 	color: white;
 	background-color: var(--blue);
 }
+#btn-circle{
+	height: 1rem;
+	width: 1rem;
+	background-color: black;
+	border-radius: 50%;
+}
+#btn-circle:hover{
+	background-color: var(--blue)
+}
 /* titoli */
 h1{
 	font-size: 4.5rem;
 	font-weight: bolder;
 	padding: 2rem 0;
 }
+h2{
+	font-size: 2rem;
+	font-weight: bolder;
+	padding: 2rem 0;
+}
+
