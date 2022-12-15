@@ -63,9 +63,6 @@ header>nav{
     flex-direction: column;
     row-gap: var(--g3);
 }
-#or{
-    border-bottom: 3px solid lightgray;
-}
 .fa-check{
     color: var(--blue);
 }
@@ -113,6 +110,7 @@ header>nav{
     flex-direction: column;
     gap: var(--g2);
     justify-self: start;
+    align-items: flex-start;
 }
 .square-5{
     background-color: #d5001f;
@@ -140,4 +138,35 @@ header>nav{
 .mia-azienda button{
     text-align: center;
 }
+/* domande frequenti */
 
+#angle-up, .df-2{
+    display: none;
+}
+#angle-down:hover + #angle-up{
+    display: block;
+}
+
+#angle-down:hover{
+    display: none;
+}
+#angle-down:hover + .df2{
+    display: block;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+footer h3,li{
+    color: white;
+}
+footer>.container-a{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-foot{
+    width: 18%;
+}
+#gray *{
+    color: gray;
+}

@@ -25,5 +25,7 @@ video {
 
 hr{
 	width: 20%;
+	border-top: 2px solid lightgrey;
 }
+
 
