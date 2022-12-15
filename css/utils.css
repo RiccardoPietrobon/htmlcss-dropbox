@@ -8,8 +8,11 @@
 .container-b{
 	max-width: 1000px;
 	margin: 0 auto;
+	padding: var(--g3) 0;
 }
-
+.container-flex{
+	display: flex;
+}
 .clearfix::after {
 	content: '';
 	clear: both;

@@ -9,7 +9,6 @@ header>nav{
 .nav-block{
     display: flex;
     align-items: center;
-    padding: var(--g1);
 }
 
 .nav-block a{
@@ -20,27 +19,22 @@ header>nav{
 .jumbotron{
     background-color: var(--jumbo);
 }
-.jumbotron>.container-a{
-    padding-top: var(--g2);
-}
 /* lato/sinistro */
 .lato-stretto{
-    width: 30%;
+    width: 35%;
 }
 .jumbo-stretto{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-
 }
-#arrow-down{
+.fa-arrow-down{
     font-size: var(--g3);
-    padding-bottom: var(--g2);
 }
 /* lato destro */
 .lato-largo{
-    width: 70%;
+    width: 65%;
 }
 .jumbo-largo>img{
     position: relative;
@@ -51,7 +45,9 @@ header>nav{
 .tipo-fatturazione{
     margin: 0 var(--g2);
 }
+
 /* 3colonne */
+/* team enterprise */
 .container-colonna{
     justify-content: space-between;
     gap: var(--g2);
@@ -61,20 +57,16 @@ header>nav{
 }
 .titoletto{
     text-align: center;
-    padding: var(--g1);
     border-bottom: none;
 }
 .main-col{
     flex-direction: column;
     row-gap: var(--g3);
-    padding: var(--g1);
-
 }
 #or{
     border-bottom: 3px solid lightgray;
-    padding-bottom: var(--g2);
 }
 .fa-check{
     color: var(--blue);
 }
-/* team enterprise */
+/* trova un partner */
