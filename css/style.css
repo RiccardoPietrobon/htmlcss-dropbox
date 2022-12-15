@@ -3,13 +3,13 @@
 header>nav{
     display: flex;
     justify-content: space-between;
-    height: 4rem;
+    height: var(--g4);
 }
 
 .nav-block{
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: var(--g1);
 }
 
 .nav-block a{
@@ -21,10 +21,7 @@ header>nav{
     background-color: var(--jumbo);
 }
 .jumbotron>.container-a{
-    padding-top: 2rem;
-}
-.container-c{
-    display: flex;
+    padding-top: var(--g2);
 }
 /* lato/sinistro */
 .lato-stretto{
@@ -38,8 +35,8 @@ header>nav{
 
 }
 #arrow-down{
-    font-size: 3rem;
-    padding-bottom: 2rem;
+    font-size: var(--g3);
+    padding-bottom: var(--g2);
 }
 /* lato destro */
 .lato-largo{
@@ -47,14 +44,37 @@ header>nav{
 }
 .jumbo-largo>img{
     position: relative;
-    top: 2rem;
+    top: var(--g2);
 }
 /* main */
 /* Sezione piano business */
-.fatturazione,
 .tipo-fatturazione{
-    display: flex;
+    margin: 0 var(--g2);
 }
-.tipo-fatturazione{
-    margin: 0 2rem;
+/* 3colonne */
+.container-colonna{
+    justify-content: space-between;
+    gap: var(--g2);
 }
+.col{
+    width: calc(100%/3);
+}
+.titoletto{
+    text-align: center;
+    padding: var(--g1);
+    border-bottom: none;
+}
+.main-col{
+    flex-direction: column;
+    row-gap: var(--g3);
+    padding: var(--g1);
+
+}
+#or{
+    border-bottom: 3px solid lightgray;
+    padding-bottom: var(--g2);
+}
+.fa-check{
+    color: var(--blue);
+}
+/* team enterprise */
