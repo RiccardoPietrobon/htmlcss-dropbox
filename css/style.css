@@ -70,11 +70,14 @@ header>nav{
 }
 .titoletto{
     text-align: center;
-    border-bottom: none;
+    border-bottom: 3px solid lightgray;
 }
 .main-col{
     flex-direction: column;
     row-gap: var(--g3);
+}
+ul{
+    min-height: 11rem;
 }
 /* list-item */
 .icon::before {
@@ -193,25 +196,28 @@ header>nav{
     text-align: center;
 }
 /* domande frequenti */
-.df-1{
+.domande-frequenti{
     border-top: 2px solid lightgray;
+}
+.domande-frequenti:last-of-type{
     border-bottom: 2px solid lightgray;
 }
 .question{
     display: flex;
     justify-content: space-between;
 }
-#caret-down:hover{
+.answer,
+#caret-up{
     display: none;
 }
-#caret-up, p.answer{
+.domande-frequenti :hover + .answer {
+display: block;
+}
+.domande-frequenti :hover + #caret-up {
+    display: block;
+}
+.domande-frequenti :hover + #caret-down {
     display: none;
-}
-#caret-down:hover + p.answer{
-    display: block;
-}
-#caret-down:hover + #caret-up{
-    display: block;
 }
 /* footer */
 footer{
