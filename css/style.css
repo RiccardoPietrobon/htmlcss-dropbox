@@ -1,4 +1,10 @@
 /* header */
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
 /* nav */
 header>nav{
     display: flex;
@@ -15,37 +21,42 @@ header>nav{
     padding: .7rem 1.5rem;
     font-style: none;
 }
+
+
+
 /* jumbotron */
 .jumbotron{
     background-color: var(--jumbo);
+
 }
 /* lato/sinistro */
 .lato-stretto{
     width: 35%;
 }
 .jumbo-stretto{
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
 }
-.fa-arrow-down{
+.jumbo-stretto>*{
+    padding-bottom: var(--g1);
+}
+.arrow{
     font-size: var(--g3);
+    margin-top: auto;
 }
 /* lato destro */
 .lato-largo{
     width: 65%;
 }
 .jumbo-largo>img{
-    position: relative;
-    top: var(--g2);
+    transform: scale(115%);
+    transform-origin: left top;
 }
-/* main */
 /* Sezione piano business */
 .tipo-fatturazione{
     margin: 0 var(--g2);
 }
-
+/* main */
 /* 3colonne */
 /* team enterprise */
 .container-colonna{
@@ -62,9 +73,51 @@ header>nav{
 .main-col{
     flex-direction: column;
     row-gap: var(--g3);
+    align-items: stretch;
+}
+/* list-item */
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.user::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    font-weight: 900;
+}
+.folder::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f07b";
+    font-weight: 900;
+}
+.circles::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f1e0";
+    font-weight: 900;
+}
+.users::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c0";
+    font-weight: 900;
+}
+.check::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+}
+.check{
+    color: blue;
 }
 .fa-check{
     color: var(--blue);
+}
+.azienda::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f594";
+    font-weight: 900;
 }
 /* trova un partner ok*/
 /*Esegui più operazioni con Dropbox Business*/
