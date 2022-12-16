@@ -69,8 +69,15 @@
 .btn-white{
 	border: 1px solid black;
 }
+.btn-white:hover{
+	color: gray;
+	border-color: gray;
+}
 .btn-white-2{
 	background-color: white;
+}
+.btn-white-2:hover{
+	color: gray;
 }
 /* titoli */
 h1{
