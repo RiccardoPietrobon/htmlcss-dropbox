@@ -211,12 +211,12 @@ ul{
     display: none;
 }
 .domande-frequenti :hover + .answer {
-display: block;
-}
-.domande-frequenti :hover + #caret-up {
     display: block;
 }
-.domande-frequenti :hover + #caret-down {
+.domande-frequenti :hover+ #caret-up {
+    display: none;
+}
+.domande-frequenti :hover + #caret-down{
     display: none;
 }
 /* footer */
